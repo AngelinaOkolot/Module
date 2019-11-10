@@ -2,10 +2,17 @@
 //
 
 #include <iostream>
+#include "Test.h"
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	string Author = "Angelina Okolot";
+	Test test = Test(Author);
+	string mes = test.GetCopyright();
+	cout << mes;
+	
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
