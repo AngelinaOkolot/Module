@@ -8,10 +8,6 @@ using namespace std;
 
 int main()
 {
-	string Author = "Angelina Okolot";
-	Test test = Test(Author);
-	string mes = test.GetCopyright();
-	cout << mes;
 	
 }
 
